@@ -1,0 +1,11 @@
+@mixin margins {
+  body {
+    margin-inline: 10px;
+  }
+
+  div {
+    margin-inline: 15px;
+  }
+}
+
+@include margins;
